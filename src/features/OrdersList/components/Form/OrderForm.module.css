@@ -41,7 +41,7 @@
   height: 100%;
   overflow: hidden;
 
-  transition: 3s;
+  transition: .5s;
 
   background-color: var(--background-color);
 }
