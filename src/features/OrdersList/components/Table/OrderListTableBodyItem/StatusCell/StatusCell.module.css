@@ -1,0 +1,14 @@
+._ {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.canceled {
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.done {
+  color: #0fb864;
+}
