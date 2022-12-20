@@ -6,14 +6,14 @@ import { React, useState } from "react";
 import {
   changeModalValue,
   closeModal,
-} from "features/OrdersList/model/orderForm/orderFormSlice";
+} from "features/OrdersList/store/slices/orderFormSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { changeOrder } from "features/OrdersList/model/orders/ordersSlice";
+import { changeOrder } from "features/OrdersList/store/slices/ordersSlice";
 import { getFormatedDate } from "features/OrdersList/lib/date";
 import {
   getOrderByID,
   getOrderForm,
-} from "features/OrdersList/model/selectors";
+} from "features/OrdersList/store/selectors";
 import { STATUSES_NAMES_TRANSLATION } from "features/OrdersList/const";
 import styles from "./OrderForm.module.css";
 import OrderDetail from "./OrderDetail/OrderDetail";

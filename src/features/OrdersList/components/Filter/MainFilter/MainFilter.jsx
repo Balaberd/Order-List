@@ -6,11 +6,11 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   changeCurrentPage,
   changeSearchbar,
-} from "features/OrdersList/model/filters/filtersSlice";
+} from "features/OrdersList/store/slices/filtersSlice";
 import {
   getFilters,
   isAdditionalFiltersActive,
-} from "features/OrdersList/model/selectors";
+} from "features/OrdersList/store/selectors";
 import cn from "classnames";
 import styles from "./MainFilter.module.css";
 

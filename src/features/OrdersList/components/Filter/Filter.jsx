@@ -5,9 +5,9 @@ import {
   changeCurrentPage,
   getAdditionalFilterValues,
   resetAllFilters,
-} from "features/OrdersList/model/filters/filtersSlice";
+} from "features/OrdersList/store/slices/filtersSlice";
 import { getDateByFilters } from "features/OrdersList/lib/date";
-import { checkOrders } from "features/OrdersList/model/orders/ordersSlice";
+import { checkOrders } from "features/OrdersList/store/slices/ordersSlice";
 import styles from "./Filter.module.css";
 import MainFilter from "./MainFilter/MainFilter";
 import AdditionalFilter from "./AdditionalFilter/AdditionalFilter";

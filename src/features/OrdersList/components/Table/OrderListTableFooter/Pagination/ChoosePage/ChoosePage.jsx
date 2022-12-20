@@ -1,6 +1,6 @@
-import { changeCurrentPage } from "features/OrdersList/model/filters/filtersSlice";
-import { checkOrders } from "features/OrdersList/model/orders/ordersSlice";
-import { getFilters } from "features/OrdersList/model/selectors";
+import { changeCurrentPage } from "features/OrdersList/store/slices/filtersSlice";
+import { checkOrders } from "features/OrdersList/store/slices/ordersSlice";
+import { getFilters } from "features/OrdersList/store/selectors";
 import { React, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Input from "shared/Input/Input";

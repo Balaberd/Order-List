@@ -1,4 +1,4 @@
-import { changeModalValue } from "features/OrdersList/model/orderForm/orderFormSlice";
+import { changeModalValue } from "features/OrdersList/store/slices/orderFormSlice";
 import React from "react";
 import { useDispatch } from "react-redux";
 import cn from "classnames";

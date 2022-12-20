@@ -2,8 +2,8 @@ import { STATUSES_NAMES_TRANSLATION } from "features/OrdersList/const";
 import {
   changeStatusOrders,
   checkOrders,
-} from "features/OrdersList/model/orders/ordersSlice";
-import { getCheckedOrdersID } from "features/OrdersList/model/selectors";
+} from "features/OrdersList/store/slices/ordersSlice";
+import { getCheckedOrdersID } from "features/OrdersList/store/selectors";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./StatusSelector.module.css";

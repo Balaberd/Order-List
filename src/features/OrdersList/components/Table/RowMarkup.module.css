@@ -1,35 +1,29 @@
 .checkbox {
-  /* width: 2.15%; */
   min-width: 2rem;
   padding-left: 0.5rem;
 }
 
 .index {
-  /* width: 7.25%; */
   min-width: 6.75rem;
   padding-left: 0.5rem;
 }
 
 .date {
-  /* width: 11.85%; */
   min-width: 11rem;
   padding-left: 0.5rem;
 }
 
 .status {
-  /* width: 11.85%; */
   min-width: 11rem;
   padding-left: 0.5rem;
 }
 
 .numberOfPositions {
-  /* width: 6.45%; */
   min-width: 6rem;
   padding-left: 0.5rem;
 }
 
 .sum {
-  /* width: 8.6%; */
   min-width: 8rem;
   padding-left: 0.5rem;
 }

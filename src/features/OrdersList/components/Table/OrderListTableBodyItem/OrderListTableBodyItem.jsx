@@ -7,11 +7,11 @@ import TableCell from "shared/Table/TableCell/TableCell";
 import Checkbox from "shared/Chechbox/Checkbox";
 import { useDispatch, useSelector } from "react-redux";
 import { getFormatedDate } from "features/OrdersList/lib/date";
-import { openModal } from "features/OrdersList/model/orderForm/orderFormSlice";
+import { openModal } from "features/OrdersList/store/slices/orderFormSlice";
 import {
   getCheckedOrdersID,
   getOrderForm,
-} from "features/OrdersList/model/selectors";
+} from "features/OrdersList/store/selectors";
 import StatusCell from "./StatusCell/StatusCell";
 import rowStyles from "../RowMarkup.module.css";
 import styles from "./OrderListTableBodyItem.module.css";

@@ -10,12 +10,12 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   changeActiveSorter,
   changeSorterDirection,
-} from "features/OrdersList/model/filters/filtersSlice";
-import { checkOrders } from "features/OrdersList/model/orders/ordersSlice";
+} from "features/OrdersList/store/slices/filtersSlice";
+import { checkOrders } from "features/OrdersList/store/slices/ordersSlice";
 import {
   getCheckedOrdersID,
   getFilters,
-} from "features/OrdersList/model/selectors";
+} from "features/OrdersList/store/selectors";
 import styles from "./OrderListTableHeader.module.css";
 import rowStyles from "../RowMarkup.module.css";
 

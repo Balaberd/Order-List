@@ -1,6 +1,6 @@
-import orders from "./orders/ordersSlice";
-import filters from "./filters/filtersSlice";
-import orderForm from "./orderForm/orderFormSlice";
+import orders from "./slices/ordersSlice";
+import filters from "./slices/filtersSlice";
+import orderForm from "./slices/orderFormSlice";
 
 const { combineReducers } = require("@reduxjs/toolkit");
 

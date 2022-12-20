@@ -8,8 +8,8 @@ import OrderListTableBodyItem from "./Table/OrderListTableBodyItem/OrderListTabl
 import OrderListTableFooter from "./Table/OrderListTableFooter/OrderListTableFooter";
 import OrderListTableHeader from "./Table/OrderListTableHeader/OrderListTableHeader";
 import styles from "./OrdersList.module.css";
-import { toggleOrderCheck } from "../model/orders/ordersSlice";
-import { getFilteredOrdersByPageAndAllOrdersLength } from "../model/selectors";
+import { toggleOrderCheck } from "../store/slices/ordersSlice";
+import { getFilteredOrdersByPageAndAllOrdersLength } from "../store/selectors";
 import OrderForm from "./Form/OrderForm";
 
 function OrdersList() {

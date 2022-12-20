@@ -1,9 +1,9 @@
-import { changeCurrentPage } from "features/OrdersList/model/filters/filtersSlice";
-import { deleteCheckedOrders } from "features/OrdersList/model/orders/ordersSlice";
+import { changeCurrentPage } from "features/OrdersList/store/slices/filtersSlice";
+import { deleteCheckedOrders } from "features/OrdersList/store/slices/ordersSlice";
 import {
   getCheckedOrdersIDLength,
   getCurrentPage,
-} from "features/OrdersList/model/selectors";
+} from "features/OrdersList/store/selectors";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Button from "shared/Button/Button";

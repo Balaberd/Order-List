@@ -1,4 +1,4 @@
-import { getCheckedOrdersIDLength } from "features/OrdersList/model/selectors";
+import { getCheckedOrdersIDLength } from "features/OrdersList/store/selectors";
 import { React } from "react";
 import { useSelector } from "react-redux";
 import Button from "shared/Button/Button";
